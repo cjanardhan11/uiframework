@@ -1,0 +1,16 @@
+import { Injectable, isDevMode } from '@angular/core';
+import { ObservableInput, of } from 'rxjs';
+import { environment } from '../../../environments/environment'
+@Injectable()
+export class HttpBaseService<T> {
+  baseUrl = '/';
+  constructor() {
+    if(isDevMode()) {
+      this.baseUrl = '/api/';
+    }    
+  }
+
+  handleError(error): ObservableInput<{}> {
+    throw of(error);
+  }
+}
