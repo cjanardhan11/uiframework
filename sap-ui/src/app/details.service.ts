@@ -12,7 +12,8 @@ export class DetailsService {
   url = 'http://localhost:5000/users/getUser';
 
   getdetais(){
-     return this.http.get(this.url);
+     //return this.http.get(this.url);
+     return this.http.get("./assets/data.json");
    }
   
    title = "SAP Framework - Sample UI/UX";
