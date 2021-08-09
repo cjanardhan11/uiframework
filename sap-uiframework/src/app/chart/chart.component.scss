@@ -1,0 +1,150 @@
+.piechart {
+    position: relative;
+    left: 31vw;
+    top: 7em;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    box-shadow: 0 12px 41px rgb(0 0 0 / 20%);
+    background-image: conic-gradient(
+        #FFC000 64deg, 
+        #00ABB5 0 123deg,
+        #0071C1 0 180deg, 
+        #DEE2E5 0);
+}
+
+.body{
+    .piechart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}
+
+.bgcolor{
+    background-image: linear-gradient(-10deg, #E9E9EB, #E9E9EB);
+    height: 100vh;
+}
+
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: #F1F3F2;
+    border-radius: 50%;
+  }
+
+  .dot1{
+    float: right;
+    padding: 4%;
+    margin: 13% 25% 5% 5%;
+  }
+
+  .dot2{
+    float: right;
+    padding: 4%;
+    margin: -12% -4% -12% -12%;
+    position: relative;
+    right: 10em;
+    top: 1.6em;
+  }
+
+  .dot3{
+    float: right;
+    padding: 4%;
+    margin: 10% 60% 4% 4%;
+  }
+
+  .dot4{
+    float: right;
+    padding: 4%;
+    margin: 4% 73% 4% 4%;
+  }
+
+  .dot44{
+    float: right;
+    padding: 4%;
+    margin: 0% 73% 4% 4%;
+  }
+
+  .dot33{
+    float: right;
+    padding: 4%;
+    margin: 0% 62% 4% 4%;
+  }
+
+  .dot22{
+    float: right;
+    padding: 4%;
+    margin: -13% -4% -12% -12%;
+    position: relative;
+    right: 10em;
+    top: 1.6em;
+  }
+
+  .dot11{
+    float: right;
+    padding: 4%;
+    margin: 7% 20% 5% 5%;
+  }
+
+  .label-text{
+      color: #87888B;
+      font-size: 24px;
+      line-height: 40px;
+      font-weight: 500;
+      padding: 85px 50px;
+      letter-spacing: 3px    
+  }
+
+  .svg-inline--fa {
+    font-size: 35px !important;
+  }
+
+  .label-text-div-main{
+      color: #FCFCFC;
+      font-size: 16px;
+      letter-spacing: 5px;
+  }
+
+  .paragraph-text-div-main{
+      font-size: 13px;
+      color: #FCFCFC;
+      margin: 1em 0 0 2em;
+  }
+
+  .mar-div-1{
+      margin-top: 5em;
+  }
+
+  .mar-div-icon-1{
+    margin-top: 4em;
+      margin-left: 1em;
+  }
+
+  .mar-div-2{
+    margin-top: 5em;
+}
+.mar-div-icon-2{
+    margin-top: 0em;
+      margin-left: 3em;
+  }
+
+  .lab-left{
+    margin-left: 6em;
+  }
+
+  .lab-left-2{
+    margin-left: 7em;
+  }
+
+  .mar-div-icon-3{
+    margin-top: 0em;
+      margin-left: 1em;
+  }
+  .lab-left-3{
+    margin: 1em 0 0 1em;
+  }
+
+  .lab-left-33{
+  margin-left: 1.3em;
+  }
